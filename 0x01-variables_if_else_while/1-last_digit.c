@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - Returns the last digit of a number.
- *
  * Description: This function serves as the entry point for the program.
  * Return: Always 0 (Success)
  */
