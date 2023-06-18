@@ -16,9 +16,8 @@ int main(void)
 	for (numbers = 48 ; numbers < 58 ; numbers++)
 	{
 		putchar(numbers);
-		if (numbers == 57){
+		if (numbers == 57)
 			break;
-		}
 		putchar(',');
 		putchar(' ');
 	}
