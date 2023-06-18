@@ -5,18 +5,18 @@
 /**
  * main - Entry point
  *
- * Description: Prints whether a randomly generated number is positive,
- *              negative, or zero.
+ * Description: prints the alphabet in lowercase, followed by a new line.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	char letters;
-	for(letters = 'a' ; letters <= 'z' ; letters++)
-	
+
+	for (letters = 'a' ; letters <= 'z' ; letters++)
+
 		putchar(letters);
-	
-	putchar('\n');	
+
+	putchar('\n');
 	return (0);
 }
