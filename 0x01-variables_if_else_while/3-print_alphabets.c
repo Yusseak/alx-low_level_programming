@@ -6,7 +6,7 @@
  * main - Entry point
  *
  * Description: prints the alphabet in lowercase, and then in uppercase,
- * 		followed by a new line.
+ *		followed by a new line.
  *
  * Return: Always 0 (Success)
  */
@@ -18,12 +18,10 @@ int main(void)
 
 		putchar(letters);
 
-	putchar('\n');
-	
 	for (letters = 'A' ; letters <= 'Z' ; letters++)
 
 		putchar(letters);
-	
+
 	putchar('\n');
 
 	return (0);
