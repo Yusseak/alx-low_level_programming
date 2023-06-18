@@ -17,26 +17,25 @@ int main(void)
 			{
 				for (l = 48; l <= 57 ; l++)
 				{
-					if(k > i || (k == i && l > j))
+					if (k > i || (k == i && l > j))
 					{
 						putchar(i);
 						putchar(j);
 						putchar(' ');
 						putchar(k);
 						putchar(l);
-						if(i != 57 || j != 56 || k != 57 || l != 57)
+						if (i != 57 || j != 56 || k != 57 || l != 57)
 						{
 							putchar(',');
 							putchar(' ');
 						}
 					}
 				}
-				
 			}
 		}
 	}
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
